@@ -11,7 +11,9 @@ namespace SimpleInvoice.Features
     {
         public static IServiceCollection AddFeatures(this IServiceCollection services)
         {
+            // Add end points
             services.AddEndPoints(Assembly.GetExecutingAssembly());
+            // Add MediatR
             services.AddMediatR(cfg => cfg.RegisterServicesFromAssembly(typeof(DepedencyInjection).Assembly));
 
             return services;

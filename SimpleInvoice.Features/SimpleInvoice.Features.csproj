@@ -19,9 +19,5 @@
     <FrameworkReference Include="Microsoft.AspNetCore.App" />
   </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\SimpleInvoice.Domain\SimpleInvoice.Domain.csproj" />
-  </ItemGroup>
-
 
 </Project>
